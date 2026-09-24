@@ -5,4 +5,6 @@
 - 홈: `index.html`
 - 이력서: `resume_ko.html` (한국어), `resume.html` (English)
 - 포트폴리오: `portfolio.html`
-- PDF: `Sungho_Lee_Resume_KR.pdf`, `Sungho_Lee_Resume.pdf`, `Sungho_Lee_Portfolio_KR.pdf`
+- PDF: 각 페이지 상단의 `PDF 저장` 버튼 (브라우저 인쇄 → PDF로 저장)
+- 이미지: `img/`
+- 대시보드: https://supplier-dev-dashboard.vercel.app/
