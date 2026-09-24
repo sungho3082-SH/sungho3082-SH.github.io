@@ -17,6 +17,7 @@
   header{display:flex;justify-content:space-between;align-items:flex-end;border-bottom:2.5px solid var(--accent);padding-bottom:8px}
   h1{margin:0;font-size:22pt;letter-spacing:.5px;font-weight:700}
   .title{margin-top:2px;color:var(--accent);font-weight:600;font-size:10.5pt}
+  .total{margin-top:4px;font-size:9pt;font-weight:600;color:var(--ink)}.total span{font-weight:400;color:var(--muted)}
   .contact{text-align:right;white-space:nowrap;color:var(--muted);font-size:9pt;line-height:1.55}
   .contact a{color:var(--muted);text-decoration:none}
   h2{font-size:10pt;letter-spacing:1.6px;text-transform:uppercase;color:var(--accent);
@@ -63,7 +64,8 @@
   <header>
     <div>
       <h1>이성호</h1>
-      <div class="title">자동차 부품 품질 엔지니어 · 신차 런칭 · 개발품질(APQP) · 협력사 개발</div>
+      <div class="title">자동차 품질 엔지니어 · 신차 런칭 · 개발품질(APQP) · 협력사 개발</div>
+      <div class="total">총 경력 5년 8개월 · 자동차 품질 5년 3개월 <span>(2026.09 기준, 인턴 제외)</span></div>
     </div>
     <div class="contact">
       대전광역시<br>
@@ -85,13 +87,13 @@
     <div class="chip"><b>자동차 전장</b>PCBA, Hall IC(TLE4997) EEPROM, FCT/EOLT 공정, 센서 제품</div>
     <div class="chip"><b>근본 원인 분석</b>FTA · PDCA · 8D, 데이터시트 · 로그 기반 분석, 재현 테스트</div>
     <div class="chip"><b>심사 · 품질 시스템</b>IATF 16949 · V5000 심사 리딩(2023, 2024), 협력사 Process Audit</div>
-    <div class="chip"><b>데이터 · 자동화</b>SAP–Apriso 입고 인터락, 업무 도구 직접 제작(VBA · Python · Apps Script)</div>
+    <div class="chip"><b>업무 효율화 · 자동화</b>AI 도구를 활용해 일정 관리 대시보드, PDF 자동 서명, SAP 입력 자동화 직접 제작</div>
   </div>
 
   <h2>경력</h2>
 
   <div class="job">
-    <div class="job-head"><span class="company">한온시스템</span><span class="dates">2026.05 – 재직중</span></div>
+    <div class="job-head"><span class="company">한온시스템</span><span class="dates">2026.05 – 재직중 (5개월)</span></div>
     <div class="role">구매본부 부품개발팀(P&amp;SD) · 선임 · 대전 · 정규직</div>
     <ul>
       <li><b>차량 개발 순서에 맞춘 협력사 개발 주도</b>: 칠러 · 콘덴서 · 라디에이터 등 열교환기 부품의 개발 단계별 품질 · 납기 준비 상태 관리</li>
@@ -99,10 +101,17 @@
       <li><b>협력사 소통 세미나(2026 상반기)</b>: 협력사 대표이사 약 <span class="num">200</span>명 대상 기획 · 사회 · 발표, 고객사 메시지(Zero Defect 등)와 QCD 개선 방향 전달</li>
       <li><b>협력사 품질 지표 관리</b>: 협력사별 품질 지표 체계화, 우수 개선사례 공유 · 확산</li>
     </ul>
+    <div class="proj">업무 효율화 · 자동화 (AI 도구 활용)</div>
+    <ul>
+      <li><b>협력사 개발 일정 관리 대시보드 자체 제작</b>: 협력사 개발 전용 관리 시스템이 없어, 차종 · 협력사별 Proto~SOP 일정, All Tool · Full Tool · 공정감사 · Full CAPA 체크포인트, 이슈 이력을 한 화면에서 보는 대시보드 제작. Google Sheets(Apps Script) 연동으로 운영하고, 사내망 제약에는 Excel + PowerShell 생성 방식으로 전환. 웹 버전은 Vercel + Supabase(PostgreSQL) DB · API로 구축하고 로그인 권한(RLS) · 암호화 전송(HTTPS) 적용</li>
+      <li><b>PDF 서명 업무 자동화</b>: Power Automate로 PDF 자동 다운로드 → Python 프로그램 연동으로 서명란 자동 서명 → 메일 자동 발송까지 연결</li>
+      <li><b>SAP 반복 입력 자동화</b>: Excel VBA로 품질정보(QI · QDL · QP) 입력과 수입자재 B/L 입력 자동화</li>
+      <li><b>협력사 자료 요청 메일 자동화</b>: 18개 협력사 대상 주간 자료 요청 메일 자동 발송</li>
+    </ul>
   </div>
 
   <div class="job">
-    <div class="job-head"><span class="company">발레오모빌리티코리아</span><span class="dates">2025.01 – 2026.05</span></div>
+    <div class="job-head"><span class="company">발레오모빌리티코리아</span><span class="dates">2025.01 – 2026.05 (1년 4개월)</span></div>
     <div class="role">품질팀 · 선임(Site SQA) · 대구 · 정규직 · ADAS 사업부 분사로 신규 법인 · 신설 공장</div>
     <div class="proj">ROA 신규 프로젝트 런칭 품질 리딩</div>
     <ul>
@@ -119,7 +128,7 @@
   </div>
 
   <div class="job">
-    <div class="job-head"><span class="company">발레오전장시스템코리아</span><span class="dates">2021.06 – 2024.12</span></div>
+    <div class="job-head"><span class="company">발레오전장시스템코리아</span><span class="dates">2021.06 – 2024.12 (3년 7개월)</span></div>
     <div class="role">품질팀 · 선임(Site SQA) · 경주 · 정규직 · 그룹사 전출(ADAS 사업부 분사)</div>
     <div class="proj">MDPS 필드 불량(3MIS) 원인 분석 · 2022.08 – 2023.12</div>
     <ul>
@@ -143,7 +152,7 @@
 
 <div class="page">
   <div class="job">
-    <div class="job-head"><span class="company">㈜도깨비</span><span class="dates">2020.10 – 2021.03</span></div>
+    <div class="job-head"><span class="company">㈜도깨비</span><span class="dates">2020.10 – 2021.03 (5개월)</span></div>
     <div class="role">개발팀 · 사원 · 구미 · 정규직 · 폐업으로 퇴사</div>
     <ul>
       <li>전동 킥보드 본체 및 안전 부가 아이템(윈드실드, LED 안전 시스템) 설계, 3D 프린팅 시제품 제작 · 실차 검증</li>

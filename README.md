@@ -1,6 +1,6 @@
-# 이성호 (Sungho Lee) — 자동차 부품 품질 엔지니어
+# 이성호 (Sungho Lee) — 자동차 품질 엔지니어
 
-신차 런칭 선행품질 · 신규 협력사 APQP · 필드 클레임 원인 분석
+신차 런칭 선행품질 · 신규 협력사 APQP · 공정품질 · 고객품질 · 품질 시스템
 
 - 홈: `index.html`
 - 이력서: `resume_ko.html` (한국어), `resume.html` (English)
