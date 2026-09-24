@@ -20,30 +20,33 @@
   .contact{text-align:right;white-space:nowrap;color:var(--muted);font-size:9pt;line-height:1.55}
   .contact a{color:var(--muted);text-decoration:none}
   h2{font-size:10pt;letter-spacing:1.6px;text-transform:uppercase;color:var(--accent);
-    margin:11px 0 5px;padding-bottom:3px;border-bottom:1px solid var(--line)}
-  .summary{margin:9px 0 0;font-size:9.8pt}
-  .chips{display:grid;grid-template-columns:repeat(3,1fr);gap:5px 8px;margin-top:4px}
+    margin:22px 0 8px;padding-bottom:4px;border-bottom:1px solid var(--line)}
+  .summary{margin:14px 0 0;font-size:9.8pt}
+  .chips{display:grid;grid-template-columns:repeat(3,1fr);gap:7px 9px;margin-top:4px}
   .chip{background:var(--accent-soft);border-radius:5px;padding:5px 8px;font-size:8.8pt}
   .chip b{display:block;color:var(--accent);font-size:8.8pt;margin-bottom:1px}
-  .job{margin-bottom:9px;break-inside:avoid}
+  .job{margin-bottom:19px;break-inside:avoid}
   .job-head{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
   .company{font-weight:700;font-size:10.3pt}
   .dates{color:var(--muted);font-size:9pt;white-space:nowrap}
-  .role{color:var(--muted);font-size:9pt;margin:1px 0 3px}
-  .proj{font-weight:600;color:var(--accent);font-size:9.3pt;margin:5px 0 1px}
+  .role{color:var(--muted);font-size:9pt;margin:2px 0 5px}
+  .proj{font-weight:600;color:var(--accent);font-size:9.3pt;margin:9px 0 2px}
   ul{margin:2px 0 0;padding-left:15px}
-  li{margin:1.5px 0}
+  li{margin:3px 0}
   li b{font-weight:600}
   .num{font-weight:700;color:var(--accent)}
   .two{display:grid;grid-template-columns:1fr 1fr;gap:0 18px}
-  .skills{margin:0} .two dl{margin:0} .skills dt{font-weight:600;font-size:9pt;margin-top:4px}
+  .skills{margin:0} .two dl{margin:0} .skills dt{font-weight:600;font-size:9pt;margin-top:8px}
   .skills dd{margin:0 0 2px;color:#2d3744;font-size:9pt}
   .small{font-size:9pt}
   .sub{margin-left:0;padding-left:10px;border-left:2px solid var(--line)}
+  .topnav{position:sticky;top:0;z-index:5;background:rgba(255,255,255,.95);border-bottom:1px solid #d9dee5;padding:10px 16px;display:flex;gap:16px;align-items:center;font-size:14px}.topnav a{color:#0f4c81;text-decoration:none}.topnav b{margin-right:auto}
+  @media print{.topnav{display:none}}
   @page{size:A4;margin:10mm 13mm}
   @media print{
     html,body{background:#fff}
     .page{margin:0;padding:0;box-shadow:none;min-height:auto;width:auto}
+    .page+.page{padding-top:19px}
   }
   @media screen and (max-width:820px){
     .page{width:auto;min-height:auto;margin:0;padding:18px 16px}
@@ -55,6 +58,8 @@
 </style>
 </head>
 <body>
+<nav class="topnav"><b>Sungho Lee · Resume</b><a href="index.html">Home</a><a href="portfolio.html">Portfolio (KR)</a><a href="resume_ko.html">이력서 (KR)</a></nav>
+
 
 <div class="page">
   <header>
@@ -193,8 +198,7 @@
 
   <h2>Additional</h2>
   <ul class="small">
-    <li>Military service: Republic of Korea Navy (2015 – 2016), selected for the Cheonghae Unit anti-piracy escort mission off Somalia.</li>
-    <li>OPIc English IM2 (Aug 2025).</li>
+    <li>Military service: Republic of Korea Navy (2015 – 2016), selected for the Cheonghae Unit anti-piracy escort mission off Somalia. · OPIc English IM2 (Aug 2025).</li>
   </ul>
 </div>
 
